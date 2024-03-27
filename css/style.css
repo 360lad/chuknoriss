@@ -1,0 +1,51 @@
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category__jokes{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orangered;
+    height: 400px;
+    width: 400px;
+}
+.list__jokes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 3em;
+list-style-type: none;
+
+
+}
+.list__jokes  li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    margin: .5em;
+    /* justify-content: space-around; */
+    /* gap: 2em; */
+    background-color: orangered;
+    border-radius: 5%;
+  
+}
+
+.category__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media screen and (min){
+    
+}
